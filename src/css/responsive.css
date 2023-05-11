@@ -1,0 +1,13 @@
+@media(max-width: 800px){
+    main{
+        gap: 20px;
+    }
+
+    .title h1{
+        text-align: center;
+    }
+
+    .title p{
+        text-align: center;
+    }
+}
