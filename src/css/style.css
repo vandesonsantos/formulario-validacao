@@ -18,14 +18,12 @@ main{
 }
 
 .title h1{
-    font-size: 2rem;
     font-weight: 900;
     margin-bottom: 15px;
 }
 
 .title p{
     font-size: 1.5rem;
-    font-weight: 400;
     width: 300px;
 }
 
