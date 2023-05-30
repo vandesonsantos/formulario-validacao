@@ -24,22 +24,21 @@
         </div>
             
         <form class="form">
-            <input type="text" name="text" placeholder="Nome completo *" class="text" id="name">
-            <span class="error" id="nameError">campos obrigatórios</span>
+            <input type="text" placeholder="Nome completo *" class="text" id="text">
+            <span class="error">campos obrigatórios</span>
 
-            <input type="email" name="email" placeholder="Email *" class="text" id="email">
-            <span class="error" id="emailError">campos obrigatórios</span>
+            <input type="email" placeholder="Email *" class="text" id="text">
+            <span class="error">campos obrigatórios</span>
 
-            <input type="tel" name="tel" placeholder="Telefone *" class="text" id="phone">
-            <span class="error" id="phoneError">campos obrigatórios</span>
+            <input type="tel" placeholder="Telefone *" class="text" id="text">
+            <span class="error">campos obrigatórios</span>
 
-            <textarea name="mensagem" placeholder="Mensagem *" class="message" id="message" cols="20" rows="5"></textarea>
-            <span class="error" id="messageError">campos obrigatórios</span>
+            <textarea placeholder="Mensagem *" class="message" id="text" cols="20" rows="5"></textarea>
+            <span class="error">campos obrigatórios</span>
     
-
             <span class="required-fields">*campos obrigatórios</span>
 
-            <input type="button" value="Enviar" class="btn" onclick="validateForm()">
+            <button type="submit" class="btn" id="btn-enviar">Enviar</button>
         </form>
     </main>
 

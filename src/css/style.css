@@ -50,6 +50,7 @@ main{
     border: solid 1px;
     border-radius: 5px;
     font-weight: 700;
+    resize: none;
 }
 
 .form .required-fields{
@@ -72,4 +73,16 @@ main{
     margin-top: -15px;
     color: var(--error-border);
     font-size: 0.8rem;
+}
+
+.form .mostrar-error{
+    display: inline;
+}
+
+.form .valido{
+    border: solid 1px #00C22B;
+}
+
+.form .invalido{
+    border: solid 1px #F52E2E;
 }
